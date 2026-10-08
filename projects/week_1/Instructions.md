@@ -57,7 +57,7 @@ To test our code, we'll use rviz to visualize both the original tag detections a
 To make sure you're starting with the latest starter code, pull from the git server in your copy of the software-training repository.
 
 ```bash
-$ cd training_ws/src/software-training
+$ cd course_ws/src/software-training
 $ git pull
 ```
 
@@ -87,7 +87,7 @@ $ ros2 launch traini_bringup traini_simulation.launch.py
 **Tip:** Don't forget to source your ROS underlay first with 
 ```bash
 source /opt/ros/humble/setup.bash
-source ~/rj_training_container/training_ws/install/setup.bash
+source ~/nurobotics_sw_course_container/course_ws/install/setup.bash
 ```
 
 You should now see Gazebo with the virtual world we'll be using for our projects.
@@ -321,7 +321,7 @@ If you do have any errors, you'll need to fix them before you can run your node.
 
 ```bash
 source /opt/ros/humble/setup.bash
-source ~/rj_training_container/training_ws/install/setup.bash
+source ~/nurobotics_sw_course_container/course_ws/install/setup.bash
 ```
 <!-- > **NOTE** you may need to source the following on a docker container instead
 ```bash
