@@ -121,7 +121,7 @@ Open terminator on the desktop (this is the recommended terminal for commands in
 
 In terminator, run
 ```bash
-cd rj_training_container
+cd nurobotics_sw_course_container
 ```
 
 ## 10. Get necessary packages
