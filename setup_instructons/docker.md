@@ -135,18 +135,18 @@ sudo apt upgrade
 
 ## Software Training Support Library Download
 
-> **_NOTE_** bash script should have installed stsl and software training old, if you can not find the directory then install them manually/ move stsl into `/course_ws/src`
+> **_NOTE_** bash script should have installed stsl and software training old, if you can not find the directory then install them manually/ move stsl into `~/nurobotics_sw_course_container/course_ws/src`
 ```bash
-cd /course_ws/src
+cd ~/nurobotics_sw_course_container/course_ws/src
 ```
 ```bash
-git clone https://github.com/RoboJackets/stsl.git
+git clone https://github.com/NEURoboticsClub/robotics-software-course.git
 ```
 
 
 ## Install ROS Dependencies
 ```bash
-cd /course_ws
+cd ~/nurobotics_sw_course_container/course_ws/src
 rosdep update && rosdep install --from-paths src --ignore-src -r -y
 ```
 
