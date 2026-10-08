@@ -49,7 +49,7 @@ Search for and install the following extensions in VS Code
 
 1. clone this repo
     ```bash
-        git clone https://github.com/RoboJackets/software-training.git
+        git clone https://github.com/NEURoboticsClub/robotics-software-course.git
     ```
 
 ## 4. Create directory to mount container
