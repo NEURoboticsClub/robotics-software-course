@@ -1,46 +1,41 @@
-# RoboJackets Software Training - Fall 2025
+# NURobotics Robotics Software Course - Fall 2026
 
-The RoboJackets software training program is designed to prepare you to work on software for the RoboJackets competitive teams. This program offers practical experience writing code using C++ and ROS. It also covers some of the fundamental concepts of robotics used by all of our teams.
+The NURobotics Robotics Software course is designed to prepare you to work on software for NURobotics competitive teams. This program offers practical experience writing code using C++ and ROS. It also covers some of the fundamental concepts of robotics.
 
-## Trainers
-- Mukilan Karthikeyan
-- Mrinal Jain
-- Justin Gardiner
-- Cipriano Dorbessan
+
+## Instructors
+
+- Casey Goyette
 
 
 ## Meeting Schedules
 
-All new software members will attend two meetings each week. One meeting will be with their competition team. The other is a general training meeting for members of all teams. While each competition team has its own schedule for new member meetings, there are multiple sessions of the general training meetings available. These general sessions are identical and exist just to give more flexible scheduling options.
-
-For more information about team meeting schedules and locations, check with each team's leadership.
-
-### [New Member Team Meetings](https://robojackets.org/teams/)
-RoboWrestling | RoboRacing | RoboNav | RoboCup | Battle Bots 
---- | --- | --- | --- | ---
-Sunday, 1:00 - 4:00pm | Monday, 7:00 - 9:30pm<br>Thursday, 7:00 - 8:30pm | Sundays, 4:00 - 7:00pm | Sundays, 7:00 - 10:00pm | refer to website
-
-
 ### General Software Training Meetings
-Modays | Thursdays
---- | --- 
-6:30 - 8:00pm | 6:30 - 8:00pm 
-MoSE G021 | MoSE G021
+Thursdays 6:00pm - 8:00pm
+- 10/1 - Richards 236
+- 10/8 - Richards 236
+- 10/15 - Richards 236
+- 10/22 - Dodge 050
+- 10/29 - Richards 253
+- 11/5 - Richards 254
+- 11/12 - Richards 236
+- 11/19 - Shillman 135
+- 12/3 - Richards 254
 
 
 ## Resources
 
 - [RoboJackets Training YouTube Channel](https://www.youtube.com/channel/UCh3TLV-vQzzcWGQ4u2jsMOw)
 
-  Where all training videos will be posted.
+  Supplemental training videos to review anything we go over in class.
 
-- [Software Training Repository](https://github.com/RoboJackets/software-training)
+- [Software Training Repository](https://github.com/NEURoboticsClub/robotics-software-course)
 
   The GitHub repository that hosts most of the resources for the software training program, including project instructions and starter code.
 
 - [STSL Repository](https://github.com/RoboJackets/stsl)
 
-  The Software Training Support Library repository. This holds support code for the training projects. Open issues against this repository if you find bugs with the robots or simulator.
+  The Software Training Support Library repository. This holds support code for the training projects.
 
 ## Prerequisites
 
@@ -50,10 +45,7 @@ Students should also be comfortable with math at the level of [AP Calculus AB](h
 
 ## Topic Schedule
 
-The content of this program is divided into three tracks: Robotics Theory, ROS, and C++. The Robotics Theory track will survey the concepts and math that make intelligent mobile robots work. The ROS track will cover how to use the Robot Operating System to program robots. The C++ track will introduce the C++ programming language, popular in robotics applications.
-Robotics theory videos should be watched before your team-specific meetings. C++ and ROS videos should be watched before the general training meetings. You should watch the C++ videos before the ROS videos for a given week.
-
-[Course Introduction Video](https://youtu.be/LZ4-nDEAFcY)
+The content of this course is divided into three tracks: Robotics Theory, ROS, and C++. The Robotics Theory track will survey the concepts and math that make intelligent mobile robots work. The ROS track will cover how to use the Robot Operating System to program robots. The C++ track will introduce the C++ programming language, popular in robotics applications.
 
 Week | Robotics Theory | ROS | C++ | Projects
 --- | --- | --- | --- | --- |
@@ -83,9 +75,6 @@ The following resources are great supplemental material to learn more about soft
 
 1. [Quaternions](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
 1. [Quaternion Interactive Tool](https://www.youtube.com/watch?v=zjMuIxRvygQ)
-
-<!-- [Nvidia's Isaac ROS](https://developer.nvidia.com/isaac/ros) -->
-
 
 
 ## Project Schedule

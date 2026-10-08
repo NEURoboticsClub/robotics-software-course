@@ -30,7 +30,7 @@ docker
 
 ## 2. Install VS Code (Highly Recommended)
 
-VS Code is the text editor of choice for most veteran RoboJackets members, thanks to its robust library of helpful extensions.
+VS Code is the text editor of choice for most NURobotics members thanks to its robust library of helpful extensions.
 
 [Download VS Code here](https://code.visualstudio.com/Download)
 
@@ -39,7 +39,7 @@ VS Code is the text editor of choice for most veteran RoboJackets members, thank
 Search for and install the following extensions in VS Code
 
 * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-* [ROS](https://marketplace.visualstudio.com/items?itemName=ms-iot.vscode-ros)
+* [Robotics Developer Environment (for ROS)](https://marketplace.visualstudio.com/items?itemName=Ranch-Hand-Robotics.rde-pack)
 * [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 * [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
 
@@ -59,9 +59,9 @@ The docker container is essentially a self-contained instance of Ubuntu 22.04, w
 **You can place this directory wherever you want**, I recommend `/home` for Mac/Linux and `C:\Users\[Username]\` for Windows
 1. Open Terminal
 
-1. create a directory where robojackets material will live
+1. create a directory where software course material will live
     ```bash
-    mkdir rj_training_container
+    mkdir nurobotics_sw_course_container
     ```
 
 ## 5. Download and run our installation script.
@@ -72,22 +72,22 @@ Our installation script will:
 - Pull the Docker image
 - Automatically setup your desktop NoVNC environment
 
-1. Go to your `rj_training_container` directory
+1. Go to your `nurobotics_sw_course_container` directory
 
    ```bash
-   cd rj_training_container
+   cd nurobotics_sw_course_container
    ```
 
 1. Download the script
 
    ```bash
-   wget https://raw.githubusercontent.com/RoboJackets/software-training/main/setup_instructons/setup.sh
+   wget https://raw.githubusercontent.com/NEURoboticsClub/robotics-software-course/refs/heads/main/setup_instructons/setup.sh
    ```
     
     if the wget command does not work, alternatively try using curl:
     
     ```bash
-    curl -O https://raw.githubusercontent.com/RoboJackets/software-training/main/setup_instructons/setup.sh
+    curl -O https://raw.githubusercontent.com/NEURoboticsClub/robotics-software-course/refs/heads/main/setup_instructons/setup.sh
     ```
 
 1. Run the script
@@ -117,11 +117,11 @@ Open terminator on the desktop (this is the recommended terminal for commands in
 > ** _TIP_** extend your terminal scroll
 > right click on terminator -> navigate to profiles -> profile preferences -> scrolling -> set to a pretty high number (beware of RAM usage)
 
-![You can find terminator at the top right](./pictures/terminator_location.png)
+![You can find terminator at the top left](./pictures/terminator_location.png)
 
 In terminator, run
 ```bash
-cd rj_training_container
+cd nurobotics_sw_course_container
 ```
 
 ## 10. Get necessary packages
@@ -135,26 +135,26 @@ sudo apt upgrade
 
 ## Software Training Support Library Download
 
-> **_NOTE_** bash script should have installed stsl and software training old, if you can not find the directory then install them manually/ move stsl into `/training_ws/src`
+> **_NOTE_** bash script should have installed stsl and software training old, if you can not find the directory then install them manually/ move stsl into `~/nurobotics_sw_course_container/course_ws/src`
 ```bash
-cd /training_ws/src
+cd ~/nurobotics_sw_course_container/course_ws/src
 ```
 ```bash
-git clone https://github.com/RoboJackets/stsl.git
+git clone https://github.com/NEURoboticsClub/robotics-software-course.git
 ```
 
 
 ## Install ROS Dependencies
 ```bash
-cd /training_ws
+cd ~/nurobotics_sw_course_container/course_ws/src
 rosdep update && rosdep install --from-paths src --ignore-src -r -y
 ```
 
 
 ## Colcon Build
-1. Navigate to training_ws
+1. Navigate to course_ws
     ```bash
-    cd /training_ws
+    cd /course_ws
     ```
 
 1. Run Colcon
@@ -162,7 +162,7 @@ rosdep update && rosdep install --from-paths src --ignore-src -r -y
     colcon build
     ```
 > **_NOTE_** if this is failing:
-> 1. check that `stsl` exists in the directory `/training_ws/src` 
+> 1. check that `stsl` exists in the directory `/course_ws/src` 
 > 1. run `source `/opt/ros/humble/setup.bash`
 > 1. make sure the rosdep command ran sucessfully
 > 1. make sure you have enough RAM available

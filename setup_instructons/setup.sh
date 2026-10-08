@@ -27,8 +27,8 @@ clone_repository() {
 # Determine the platform
 platform=$(uname)
 if [[ "$platform" == "Darwin" || "$platform" == "Linux" || "$platform" == *"MINGW"* || "$platform" == *"MSYS"* ]]; then
-    clone_repository "https://github.com/RoboJackets/software-training.git" "training_ws/src/software-training"
-    clone_repository "https://github.com/RoboJackets/stsl.git" "training_ws/src/stsl"
+    clone_repository "https://github.com/NEURoboticsClub/robotics-software-course.git" "course_ws/src/software-training"
+    clone_repository "https://github.com/RoboJackets/stsl.git" "course_ws/src/stsl"
 else
     echo "Unsupported platform: $platform"
     exit 1
@@ -63,7 +63,7 @@ get_cwd() {
 }
 
 # Set up container name + location
-container_name="rj_training_container"
+container_name="nurobotics_sw_course_container"
 mount_dir=$(get_cwd)
 
 # Function to start the container
@@ -83,7 +83,7 @@ start_container() {
     else
         # Run the container and mount with additional options on first creation
         docker pull --platform=linux/amd64 "$image_name:$image_tag"
-        docker run -p 6060:80 --shm-size=512m --security-opt seccomp=unconfined -d --name "$container_name" -v "$mount_dir:/home/ubuntu/rj_training_container" "$image_name:$image_tag"
+        docker run -p 6060:80 --shm-size=512m --security-opt seccomp=unconfined -d --name "$container_name" -v "$mount_dir:/home/ubuntu/nurobotics_sw_course_container" "$image_name:$image_tag"
         echo "Container $container_name pulled, created, and started"
     fi
 }
