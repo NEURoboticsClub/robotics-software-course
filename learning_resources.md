@@ -3,6 +3,8 @@ Take a look through these resources to get a better understanding of the topics 
 
 Check the topics in the [syllabus](./Syllabus.md#topic-schedule) to find links to playlists that cover exactly the same content we went over in class.
 
+Presentations for each week can be found in the [presentations](./presentations/) folder
+
 
 ## General Resources
 1. [Learn Git](https://learngitbranching.js.org/?locale=en_US)
