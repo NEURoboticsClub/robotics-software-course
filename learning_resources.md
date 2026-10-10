@@ -1,6 +1,8 @@
 # Learning Resources
 Take a look through these resources to get a better understanding of the topics we're covering!
 
+Check the topics in the [syllabus](./Syllabus.md#topic-schedule) to find links to playlists that cover exactly the same content we went over in class.
+
 
 ## General Resources
 1. [Learn Git](https://learngitbranching.js.org/?locale=en_US)
@@ -14,6 +16,4 @@ Take a look through these resources to get a better understanding of the topics 
 1. [Quaternion Interactive Tool](https://www.youtube.com/watch?v=zjMuIxRvygQ)
 1. [Where Rotation Matrices Come From](https://www.youtube.com/watch?v=BKsZrkI6sro)
 1. [Explanation of Individual 2D Transformation Matrices and Homogeneous Coordinates](https://graphicmaths.com/pure/matrices/matrix-2d-transformations/)
-1. [Explanation of Combining Individual 2D Transformation Matrices](https://graphicmaths.com/pure/matrices/matrix-2d-transformations/)
-
-Check the topics in the [syllabus](./Syllabus.md#topic-schedule) to find links to playlists that cover exactly the same content we went over in class.
+1. [Explanation of Combining Individual 2D Transformation Matrices](https://graphicmaths.com/pure/matrices/combining-transformations/)
