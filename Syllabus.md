@@ -66,15 +66,7 @@ Week | Robotics Theory | ROS | C++ | Projects
 
 
 ## Additional Resources
-The following resources are great supplemental material to learn more about software for robotics applications.
-
-1. [Learn Git](https://learngitbranching.js.org/?locale=en_US)
-1. [The Linux command line](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-1. [Robotics and Perception Textbook](https://www.roboticsbook.org/intro.html)
-1. [Broader view on Controls Matlab videos ](https://www.mathworks.com/videos/tech-talks.html)
-
-1. [Quaternions](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
-1. [Quaternion Interactive Tool](https://www.youtube.com/watch?v=zjMuIxRvygQ)
+Check out [Learning Resources](./learning_resources.md) for resources to get a better understanding of the topics we're covering!
 
 
 ## Project Schedule
