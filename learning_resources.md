@@ -11,7 +11,7 @@ Presentations for each week can be found in the [presentations](./presentations/
 1. [The Linux command line](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 1. [Robotics and Perception Textbook](https://www.roboticsbook.org/intro.html)
 1. [Broader view on Controls Matlab videos ](https://www.mathworks.com/videos/tech-talks.html)
-1. [Linear algebra review (Gilbert Strang - MIT)](https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D)
+1. [Linear algebra review (Gilbert Strang - MIT)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
 
 
 ## Week 1 Resources
