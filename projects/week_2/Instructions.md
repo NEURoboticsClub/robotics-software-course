@@ -45,14 +45,14 @@ A color space that's easier to work with for color detection is "HSV". This colo
 
 This color space isn't perfect. Note that there are certain kinds of singularities where multiple HSV values can be used to represent the exact same color, such as white or black. In practice, however, it's very useful for detecting most colors.
 
-![The HSV cylinder](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/HSV_color_solid_cylinder_saturation_gray.png/320px-HSV_color_solid_cylinder_saturation_gray.png)
+![The HSV cylinder](https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder_saturation_gray.png#/media/File:HSV_color_solid_cylinder_saturation_gray.png)
 
 ## 2 Running this project
 
 You can run this week's project using the week 2 launch file. This will startup the simulator, rviz, and your obstacle detection code.
 
 ```bash
-$ ros2 launch rj_training_bringup week_2.launch.xml
+$ ros2 launch nu_training_bringup week_2.launch.xml
 ```
 
 To move the robot around and test your code at different positions, use the same joystick or keyboard control launch files as you used in week 1.
@@ -72,7 +72,7 @@ Once you've got your code working, you should see a map show up in rviz's 3D vie
 To make sure you're starting with the latest starter code, pull from the git server in your copy of the software-training repository.
 
 ```bash
-$ cd training_ws/src/software-training
+$ cd course_ws/src/software-training
 $ git pull
 ```
 
