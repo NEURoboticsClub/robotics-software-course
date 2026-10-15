@@ -45,7 +45,7 @@ A color space that's easier to work with for color detection is "HSV". This colo
 
 This color space isn't perfect. Note that there are certain kinds of singularities where multiple HSV values can be used to represent the exact same color, such as white or black. In practice, however, it's very useful for detecting most colors.
 
-![The HSV cylinder](https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder_saturation_gray.png#/media/File:HSV_color_solid_cylinder_saturation_gray.png)
+![The HSV cylinder](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/HSV_color_solid_cylinder_saturation_gray.png/1280px-HSV_color_solid_cylinder_saturation_gray.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
 
 ## 2 Running this project
 
