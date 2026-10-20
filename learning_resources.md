@@ -27,6 +27,8 @@ Presentations for each week can be found in the [presentations](./presentations/
 1. [Homogenous Coordinates](https://www.youtube.com/watch?v=MQdm0Z_gNcw)
     - Also includes explanations of the pinhole camera model and transformation matrices
     - Would recommend other explanations on this channel - he does a great job of breaking things down
+1. [What Homographies Are](https://www.youtube.com/watch?v=B8kMB6Hv2eI)
+1. [How to Compute Homographies](https://www.youtube.com/watch?v=l_qjO4cM74o)
 1. [Multiple View Geometry in Computer Vision](https://github.com/DeepRobot2020/books/blob/master/Multiple%20View%20Geometry%20in%20Computer%20Vision%20(Second%20Edition).pdf)
     - Great resource for computer vision
     - Check out Chapter 2 for projective geometry and transformations in 2D (homographies) and check out Chapter 4.1 for the Direct Linear Transform (the mathematical method used for computing homographies)
