@@ -20,3 +20,13 @@ Presentations for each week can be found in the [presentations](./presentations/
 1. [Where Rotation Matrices Come From](https://www.youtube.com/watch?v=BKsZrkI6sro)
 1. [Explanation of Individual 2D Transformation Matrices and Homogeneous Coordinates](https://graphicmaths.com/pure/matrices/matrix-2d-transformations/)
 1. [Explanation of Combining Individual 2D Transformation Matrices](https://graphicmaths.com/pure/matrices/combining-transformations/)
+
+## Week 2 Resources
+1. [Discrete Convolutions (Most relevant to the filtering we convered)](https://www.youtube.com/watch?v=KuXjwB4LzSA)
+1. [Continuous Convolutions](https://www.youtube.com/watch?v=IaSGqQa5O-M)
+1. [Homogenous Coordinates](https://www.youtube.com/watch?v=MQdm0Z_gNcw)
+    - Also includes explanations of the pinhole camera model and transformation matrices
+    - Would recommend other explanations on this channel - he does a great job of breaking things down
+1. [Multiple View Geometry in Computer Vision](https://github.com/DeepRobot2020/books/blob/master/Multiple%20View%20Geometry%20in%20Computer%20Vision%20(Second%20Edition).pdf)
+    - Great resource for computer vision
+    - Check out Chapter 2 for projective geometry and transformations in 2D (homographies) and check out Chapter 4.1 for the Direct Linear Transform (the mathematical method used for computing homographies)
