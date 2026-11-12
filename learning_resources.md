@@ -72,3 +72,14 @@ Most popular SLAM solutions are open source, and can be found on GitHub. Linked 
 1. [Introduction to Robot Mapping](https://www.youtube.com/watch?v=wVsfCnyt5jA)
 1. [Occupancy Grid 5 Minute Overview](https://www.youtube.com/watch?v=8ckhPViqneg)
 1. [Occupancy Grid Maps](https://www.youtube.com/watch?v=v-Rm9TUG9LA)
+
+## Week 4 Resources
+### Text
+1. [The Jacobian Matrix](https://machinelearningmastery.com/a-gentle-introduction-to-the-jacobian/)
+1. [Gradient Descent Explanation](https://www.geeksforgeeks.org/machine-learning/what-is-gradient-descent/)
+
+### Videos
+1. [The Jacobian Matrix](https://www.youtube.com/watch?v=bohL918kXQk)
+1. [Multi-Variable Optimization (Second Derivative Test)](https://www.youtube.com/watch?v=_Ffcr98c7EE)
+1. [Gradient Descent 5 Minute Overview](https://www.youtube.com/watch?v=4F0_V_0OO2Q)
+1. [Simulated Annealing Explanation](https://www.youtube.com/watch?v=21EDdFVMz8I)
