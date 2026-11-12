@@ -73,7 +73,7 @@ Most popular SLAM solutions are open source, and can be found on GitHub. Linked 
 1. [Occupancy Grid 5 Minute Overview](https://www.youtube.com/watch?v=8ckhPViqneg)
 1. [Occupancy Grid Maps](https://www.youtube.com/watch?v=v-Rm9TUG9LA)
 
-## Week 4 Resources
+## Week 5 Resources
 ### Text
 1. [The Jacobian Matrix](https://machinelearningmastery.com/a-gentle-introduction-to-the-jacobian/)
 1. [Gradient Descent Explanation](https://www.geeksforgeeks.org/machine-learning/what-is-gradient-descent/)
